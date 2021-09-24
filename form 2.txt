@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <title> APPLY FOR SCHOLARSHIP HERE </title>
+        <style>
+           caption{
+               color: chocolate;
+               font-size: 30px;
+               font-family: sans-serif;
+               border: solid;
+               border-radius: 20px;
+               border-color: coral;
+               background-color: burlywood;
+
+           }
+           table{
+               background-color: gray;
+               border: solid;
+               border-radius: 30px;
+               border-color: greenyellow;
+           }
+        </style>
+    </head>
+    <body>
+        <table align="center" width="600">
+            <caption> REGISTRATION FORM </caption>
+            <div class="table">
+            <tr>
+                <td>  NAME </td>
+                <td>
+                    <input type="text" name="txtname" placeholder="max 10 chars only" autofocus required maxlength="10" size="20" pattern="[A-Z]">
+                </td>
+            </tr>
+            <tr>
+              <td> AGE </td>
+              <td>
+                  <input type="number" name="txtage" min="17" max="23" value="2">
+              </td>  
+            </tr>
+            <tr>
+                <td> EMAIL </td>
+                <td>
+                    <input type="email" name="txtemail">
+                </td>
+            </tr>
+            <tr>
+                <td> PASSWORD </td>
+                <td>
+                    <input type="password" name="txtpassword" >
+                </td>
+            </tr>
+            <tr>
+                <td> CITY </td>
+                <td>
+                    <input type="text" name="txtcity">
+                </td>
+            </tr>
+            <tr>
+                <td> STATE </td>
+                <td>
+                    <input tyoe="text" name="txtstate">
+                </td>
+            </tr>
+            <tr>
+                <td> ADDRESS </td>
+                <td>
+                    <input type="text" name="txtaddress">
+                </td>
+            </tr>
+            <tr>
+                <td>PHONE NO.</td>
+                <td>
+                    <input type="number" name="txtphone no." max="10">
+                </td>
+            </tr>
+            <tr>
+               <td> DOB </td> 
+               <td>
+                   <input type="data" name="txtdob">
+               </td>
+            </tr>
+            <tr>
+                <td> COLLEGE </td>
+                <td>
+                    <input type="text" list="colleges">
+                    <datalist id="colleges">
+                        <option>CMRIT</option>
+                        <option>MVJCE</option>
+                        <option>BMS COLLEGE OF ENGINEERING</option>
+                        <option>RVIT</option>
+                        <option>RNSIT</option>
+                        <option>JSSIT</option>
+                        <option>BIT</option>
+                        <option>BAHUBALI COLLEGE OF ENGINEERING</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td> RELIGION </td>
+                <td>
+                    <input type="text" name="txtreligion">
+                </td>
+            </tr>
+            <tr>
+               <td> CASTE </td> 
+                <td>
+                    <input type="text" name="txtcaste">
+                </td>
+            </tr>
+            <tr>
+                <td> UPLOAD YOUR PHOTO </td>
+                <td>
+                    <input type="file" name="txtfile">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                </td>
+                
+            </tr>
+         </div>
+        </table>
+    </body>
+</html>

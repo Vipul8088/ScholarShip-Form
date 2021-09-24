@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> REGISTRATION FORM FOR SCHOLARSHIP </title>
+        <style>
+            #first{
+                border:solid;
+                border-radius: 10px;
+                background-color: lightcoral;
+                text-align: center;
+                color: lightcyan;
+                border-color: lightslategrey;
+                font-size: 35px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            h2{
+                text-align: center;
+                color:magenta;
+                
+
+            }
+            .second{
+                border:solid;
+                border-color: brown;
+                border-radius: 15px;
+                color:darkblue;
+                background-color: darkgray;
+            }
+            body{
+                background-color:black;
+                
+            }
+            .third{
+                color:red;
+            }
+            .comment{
+               
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body vlink="yellow" alink="green">
+        <p id="first">
+            STUDENTS STUDYING IN ENGINEERING COLLEGES CAN APPLY FOR THIS SCHOLARSHIP!!<br> 
+        </p>
+        <h2>TERMS AND CONDITION TO APPLY FOR THIS SCHOLARSHIP </h2>
+        <div class="second">
+            <ol>
+                <li>THE STUDENT SHOULD BE STUDYING IN ANY ONE THE ENGG COLLEGE UNDER AICTE</li>
+                <li> THE STUDENT'S ANNUAL INCOME MENTIONED IN THE INCOME CERTIFICATE SHOULD NOT EXCEED 10 LAKHS AND SHOULD HAVE INCOME CERTIFICATE PROVIDED BY STATE GOVT / GRAM PANCHAYAT </li>
+                <li> STUDENT OF ANY CASTE ARE ELIGIBLE </li>
+            </ol>
+        </div>
+        <div class="third" >
+            TO APPLY FOR THE SCHOLARSHIP<br>
+            CLICK THE BELOW LINK PROVIDED...<br>
+            <a href="form2.html" target="_blank">REGISTRATION LINK</a>
+        </div>
+        <div class="comment">
+            <dialog open>
+                <form>
+                     QUERIES: <input type="text">
+                    <button> POST </button><br>
+                    HAVE A NICE DAY!!
+                </form>
+            </dialog>
+        </div>
+    </body>
+
+</html>
